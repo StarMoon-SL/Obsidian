@@ -1,4 +1,3 @@
-
 local cloneref = (cloneref or clonereference or function(instance: any)
     return instance
 end)
@@ -41,12 +40,13 @@ local ThemeManager = {}
 do
     local ThemeFields = { "FontColor", "MainColor", "AccentColor", "BackgroundColor", "OutlineColor" }
     ThemeManager.Folder = "ObsidianLibSettings"
+
     ThemeManager.Library = nil
     ThemeManager.AppliedToTab = false
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
             1,
-            { FontColor = "ffffff", MainColor = "666666", AccentColor = "87CEEB", BackgroundColor = "808080", OutlineColor = "ffffff", FontFace = "SourceSans" },
+            { FontColor = "ffffff", MainColor = "ffffff", AccentColor = "87CEEB", BackgroundColor = "808080", OutlineColor = "ffffff", FontFace = "SourceSans" },
         },
         ["BBot"] = {
             2,

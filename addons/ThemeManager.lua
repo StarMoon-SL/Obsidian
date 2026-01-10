@@ -40,13 +40,12 @@ local ThemeManager = {}
 do
     local ThemeFields = { "FontColor", "MainColor", "AccentColor", "BackgroundColor", "OutlineColor" }
     ThemeManager.Folder = "ObsidianLibSettings"
-
     ThemeManager.Library = nil
     ThemeManager.AppliedToTab = false
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
             1,
-            { FontColor = "ffffff", MainColor = "191919", AccentColor = "87CEEB", BackgroundColor = "808080", OutlineColor = "282828", FontFace = "SourceSans" },
+            { FontColor = "ffffff", MainColor = "666666", AccentColor = "82aaff", BackgroundColor = "808080", OutlineColor = "ffffff", FontFace = "SourceSans" },
         },
         ["BBot"] = {
             2,
@@ -71,6 +70,18 @@ do
         ["Ubuntu"] = {
             7,
             { FontColor = "ffffff", MainColor = "3e3e3e", AccentColor = "e2581e", BackgroundColor = "323232", OutlineColor = "191919" },
+        },
+        ["Quartz"] = {
+            8,
+            { FontColor = "ffffff", MainColor = "232330", AccentColor = "426e87", BackgroundColor = "1d1b26", OutlineColor = "27232f" },
+        },
+        ["Nord"] = {
+            9,
+            { FontColor = "eceff4", MainColor = "3b4252", AccentColor = "88c0d0", BackgroundColor = "2e3440", OutlineColor = "4c566a" },
+        },
+        ["Dracula"] = {
+            10,
+            { Font323232", OutlineColor = "191919" },
         },
         ["Quartz"] = {
             8,

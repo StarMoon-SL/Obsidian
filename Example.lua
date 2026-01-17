@@ -665,6 +665,10 @@ Tabs.Key:AddKeyBox(function(ReceivedKey)
 	})
 end)
 
+-- DraggableLabel
+
+Library:AddDraggableLabel("This is a Draggable Label")
+
 -- UI Settings
 local MenuGroup = Tabs["UI Settings"]:AddLeftGroupbox("Menu", "wrench")
 

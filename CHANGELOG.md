@@ -1,3 +1,15 @@
+## 17.03.2026
+
+```diff
+[features]
++ Window:SetCornerRadius(Radius: number)
+
+[fixes]
++ Fixed Window:SetFooter not changing the label text
++ Fixed footer background not properly resizing
++ Fixed Tab buttons not respecting corner radius
+```
+
 ## 16.01.2026
 
 ```diff

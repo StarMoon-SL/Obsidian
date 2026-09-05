@@ -1,3 +1,41 @@
+## 04.09.2026
+
+```diff
+[features]
++ TabButtonsStyle for CreateWindow (Gap, Padding, CornerRadius, Indicator, IndicatorWidth, IndicatorHeight)
++ Library.Cursor:ChangeCrossColor(Color)
++ Library.Cursor:ResetCross()
++ Library.Cursor:ChangeIcon(ImageId)
++ Library.Cursor:ChangeIconColor(Color)
++ Library.Cursor:ChangeIconSize(Size)
++ Library.Cursor:ResetIcon()
++ Library.Cursor:ResetCursor()
+
+[changes]
++ Library:ChangeCursorCrossColor, ResetCursorCross, ChangeCursorIcon, ChangeCursorIconColor, ChangeCursorIconSize and ResetCursorIcon are deprecated; use Library.Cursor instead
+
+[fixed]
++ Fixed KeyPickers not updating visually when toggled from the keybind menu
+```
+
+## 31.08.2026
+
+```diff
+[features]
++ Tooltip support for tab buttons
+
+[changes]
++ ColorPickers use the smallest possible size on Mobile now
++ SetValue will now set the Value but will not run the Callbacks when the element is disabled
++ Search now switches to the tab with the most prominent match
+
+[fixed]
++ Fixed notifications resizing incorrectly
++ Fixed Toggle and Lock buttons on mobile impossible to click
++ Fixed KeyPickers and ColorPickers still able to be changed while disabled in the UI
++ Fixed KeyPickers and ColorPickers not updating visually if they are disabled or not
+```
+
 ## 25.08.2026
 
 ```diff
